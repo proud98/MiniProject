@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<title>Treasure</title>
+<title>WE GO</title>
 
 <style type="text/css">
 @font-face {
@@ -22,10 +22,21 @@
   font-style: normal;
 }
 
+.main{
+	background-color: gray;
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
 </style>
 
 </head>
 <body>
-일단메인
+<c:set var="root" value="<%=request.getContextPath()%>"/>
+	
+	<div class="main">
+	</div>
 </body>
 </html>
