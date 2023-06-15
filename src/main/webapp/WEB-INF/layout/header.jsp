@@ -27,6 +27,7 @@
 
 .logo{
 	margin-left: 30px;
+	cursor: pointer;
 	
 }
 
@@ -58,7 +59,7 @@
 	<div class="header">
 		
 		<div class="title">
-			<div class="logo"><img src="../image/WEGO.png"
+			<div class="logo" onclick="location.href='/'"><img src="../image/WEGO.png"
                               style="width: 170px; height: 110px; margin-top: -20px;" ></div>			
 		</div>
 		

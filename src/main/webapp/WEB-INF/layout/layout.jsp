@@ -37,6 +37,15 @@
             width: 100%;
             min-height: 55vh;
         }
+        
+        div.layout div.footer {
+            /* position: relative; */
+            border: 0px solid gray;
+            background-color: white;
+            /* top: 600px; */
+            height: 250px;
+            width: 100%;
+        }
 
 
         /* 글꼴 적용*/
