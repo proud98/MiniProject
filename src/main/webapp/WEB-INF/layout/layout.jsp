@@ -66,6 +66,31 @@
         body {
             font-family: 'GmarketSansMedium';
         }
+        
+                .btns {
+            display: flex;
+            position: fixed;
+            right: .4rem;
+            bottom: .4rem;
+        }
+        
+         .btns > div {
+            padding: .6rem 1.5rem;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: .2s;
+            color: #fff;
+            margin-right: .4rem;
+        }
+        
+        .moveTopBtn:hover {
+	color: white;
+	background: #0093D8;
+}
     </style>
 
 
@@ -88,8 +113,24 @@
     <div class="footer">
         <tiles:insertAttribute name="footer"/>
     </div>
+    
+    <div class="btns">
+        <div class="moveTopBtn">
+            <span class="glyphicon glyphicon-triangle-top"></span>top
+        </div>
+    </div>
 
 </div>
+
+<script>
+    const $topBtn = document.querySelector(".moveTopBtn");
+
+    //버튼 클릭 시 맨 위로 이동
+    $topBtn.onclick = () => {
+        window.scrollTo({top: 0, behavior: "smooth"});
+    }
+
+</script>
 
 </body>
 </html>
