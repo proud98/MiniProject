@@ -43,7 +43,7 @@
             border: 0px solid gray;
             background-color: white;
             /* top: 600px; */
-            height: 250px;
+            height: 220px;
             width: 100%;
         }
 
