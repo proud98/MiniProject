@@ -81,7 +81,6 @@
 			<img alt="" src="../image/WEGO2.png" style="width: 250px; opacity: 0.7; margin-left: 600px;">
 			<div style="font-size: 13px; opacity: 0.6; margin-left: 200px; margin-top: -45px;">
 			WE GO 주식회사 · 대표 XXX사업자등록번호 : 177-54-XXXXX : 사업장소재지 : 경기도 성남시 수정구<br>
-			Content · ha2rang@naver.com : 010-5240-9805
 			</div>
 		</div>
 	

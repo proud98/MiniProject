@@ -76,15 +76,16 @@
         
          .btns > div {
             padding: .6rem 1.5rem;
-            background: black;
+            background: white;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
             border-radius: 5px;
             transition: .2s;
-            color: #fff;
+            color: #0093D8;
             margin-right: .4rem;
+            border: 1px solid #0093D8;
         }
         
         .moveTopBtn:hover {
